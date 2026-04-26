@@ -56,7 +56,7 @@ We begin with a classic microstructure feature: trade flow imbalance on Uniswap 
 
 The intuition is straightforward — persistent imbalance may indicate directional demand pressure. However, empirical analysis shows that the signal is strongly coupled to contemporaneous price movements and exhibits no stable alignment with forward-looking targets across time scales.
 
-As a result, trade flow imbalance is best interpreted as a **reactive feature capturing immediate market pressure**, rather than a source of predictive information.
+As a result, trade flow imbalance is best interpreted as a reactive feature capturing immediate market pressure, rather than a source of predictive information.
 
 ---
 
@@ -73,7 +73,7 @@ We construct two features:
 
 Compared to trade flow, these signals exhibit weaker coupling to immediate returns and capture slower structural dynamics. However, within the tested horizon, they do not demonstrate stable predictive behavior.
 
-Overall, out-of-range mint activity appears to reflect **liquidity structure rather than directional forecasting**, and may require longer horizons or additional conditioning to become informative.
+Overall, out-of-range mint activity appears to reflect liquidity structure rather than directional forecasting, and may require longer horizons or additional conditioning to become informative.
 
 ---
 
