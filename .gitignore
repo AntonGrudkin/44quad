@@ -3,4 +3,4 @@
 .archive
 src/__pycache__
 data
-*.txt
+*key.txt
