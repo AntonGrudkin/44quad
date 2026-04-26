@@ -16,6 +16,8 @@ On micro-level, on-chain activity usually tends to follow CEX price discovery pr
 
 Thus, alpha signals from on-chain data should focus on slower processes, where information may not yet be fully reflected in price.
 
+In this research we will try to identify directional predictive signals for ETHUSD perp swap. 
+
 ## Target and Evaluation Methodology
 We define the target as a forward exponentially smoothed return of the asset price:
 $$
