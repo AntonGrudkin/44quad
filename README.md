@@ -97,6 +97,8 @@ Across the evaluated signals, we observe a clear distinction between reactive mi
 
 These results highlight the importance of aligning signal construction with the underlying economic process and its natural time scale. Signals derived from immediate execution tend to reflect price impact, while signals related to capital movement and inventory shifts may contain slower information not immediately incorporated into price.
 
+Given that most signals do not demonstrate stable predictive structure within the tested framework, we do not proceed to backtesting, as this would likely lead to overfitting weak effects.
+
 Several directions for further work follow naturally:
 
 - **Out-of-sample validation**: evaluate the stability of observed relationships across time and market regimes.
